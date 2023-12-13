@@ -29,14 +29,64 @@ img{
   height: 450px;
   width: 595px;
   }
+.part1, .part2 {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
 .part1 > div{
-  border: 2px solid black;
-  margin-bottom: 40px;
+  border: 2px solid black; 
 } 
 .part2 > div{
-  border: 2px solid black;
-  margin-bottom: 40px;
+  border: 2px solid black;  
 } 
+.hov1,.hov2,.hov3,.hov4,.hov5,.hov6,.hov7,.hov8 {
+  width: 598px;
+  height: 150px;
+  background:rgba(203, 199, 199, 0.2)  
+}
+.hov1{
+  position: absolute;
+  overflow: hidden;
+  margin-top: 150px;
+  
+}
+.hov2{
+  position: absolute;
+  overflow: hidden;
+  margin-top: -350px;
+}
+.hov3{
+  position: absolute;
+  overflow: hidden;
+  margin-top: -350px;
+}
+.hov4{
+  position: absolute;
+  overflow: hidden;
+  margin-top: -350px;
+}
+.hov5{
+  position: absolute;
+  overflow: hidden;
+  margin-top: -350px;
+}
+.hov6{
+  position: absolute;
+  overflow: hidden;
+  margin-top: -350px;
+}
+.hov7{
+  position: absolute;
+  overflow: hidden;
+  margin-top: -350px;
+}
+.hov8{
+  position: absolute;
+  overflow: hidden;
+  margin-top: -350px;
+}
 
-/*jpg:hover:nth-child(3){background: blue}*/
+
+
 

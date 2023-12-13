@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+header{
+  background-color: #81A36B; 
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  }
+
+h1{
+  font-weight: 400;
+  font-size: 62px;
+  font-family: 'Architects Daughter',sans-serif;
+  }
+
+.photo-galery{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  }
+/*img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex:1 1 45%;
+}*/
+img{
+  height: 455px;
+  width: 595px;
+  }
+.part1 > div{
+  border: 2px solid black;
+  margin-bottom: 40px;
+} 
+.part2 > div{
+  border: 2px solid black;
+  margin-bottom: 40px;
+} 
+
+/*jpg:hover:nth-child(3){background: blue}*/
+

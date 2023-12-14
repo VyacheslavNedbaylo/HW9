@@ -15,10 +15,11 @@ h1{
 a:hover {background: #f2eded;} 
 a{
   text-decoration: none;
-}
+  }
 .menu {
   position: fixed;
-  margin-top: 250px;
+  margin-top: 200px;
+  left: 5px;
   background-color: aquamarine;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -61,47 +62,56 @@ img{
   overflow: hidden;
   margin-top: 150px;
   opacity: 0;
-  
   }
 .hov2{
   position: absolute;
   overflow: hidden;
   margin-top: 610px;
+  opacity: 0;
 }
 .hov3{
   position: absolute;
   overflow: hidden;
   margin-top: 1070px;
+  opacity: 0;
 }
 .hov4{
   position: absolute;
   overflow: hidden;
   margin-top: 1530px;
+  opacity: 0;
 }
 .hov5{
   position: absolute;
   overflow: hidden;
   margin-top: 150px;
+  opacity: 0;
 }
 .hov6{
   position: absolute;
   overflow: hidden;
   margin-top: 610px;
+  opacity: 0;
 }
 .hov7{
   position: absolute;
   overflow: hidden;
   margin-top: 1070px;
+  opacity: 0;
 }
 .hov8{
   position: absolute;
   overflow: hidden;
   margin-top: 1530px;
+  opacity: 0;
 }
-
-
-.car1:hover:{
-  opacity: 1;
-}
+.hov1:hover{opacity: 1;}
+.hov2:hover{opacity: 1;}
+.hov3:hover{opacity: 1;}
+.hov4:hover{opacity: 1;}
+.hov5:hover{opacity: 1;}
+.hov6:hover{opacity: 1;}
+.hov7:hover{opacity: 1;}
+.hov8:hover{opacity: 1;}
 
 

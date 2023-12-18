@@ -1,0 +1,95 @@
+ * {box-sizing: border-box;}
+ /* Також можна підключати через посилання @import url(reset.css);*/ 
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+ .h1{
+   text-transform: uppercase;
+   font-size: 40px;
+   font-weight: 600;
+   margin-bottom: 30px;
+ }
+ .h2{
+  text-transform: uppercase;
+   font-size: 30px;
+   font-weight: 600;
+ }
+ .picture{
+  width:400px;
+  height:300px;
+  margin: 20px;
+  }
+ .container{
+  margin:0 auto;
+  width:1200px; 
+  text-align:center;
+  }
+  div > p {
+    font-weight: 500;
+    color: black;
+    font-style: oblique;
+  }
+  div > div > div {background-color: gray;}
+  /*У мене на сайті немає такоє кількості вкладеності дівів, але я прописав цей код на майбутне, бо дививcя урок*/
+   .table {
+   width:1200px;
+   margin: 20px auto;
+   background-color: darkslategrey;
+   }
+ th,td {
+   border: 2px solid brown;
+   width: 130px; height: 130px;
+   }
+   .gray{
+    background-color: gray;
+   }
+   .green{
+    background-color: green;
+   }
+   .slat{
+    background-color:  slateblue;
+   }
+   .yellow{
+   background-color: yellow;
+  }
+   .blue{
+    background-color:  blue;
+   }
+

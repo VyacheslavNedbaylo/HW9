@@ -1,0 +1,85 @@
+@import url(reset.css);
+.wrapper{
+  width: 1200px;
+  margin: o auto;
+      }
+  .aqua{
+    font-size: 0;
+  }
+  .aqua>div{
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 2px solid red;
+    text-align: left;
+    font-size: 20px;
+    }
+.green{
+  font-size: 0;
+  }
+.green1, .green2 {
+  float: left;
+  background-color:  greenyellow;
+  text-align: left;
+  font-size: 20px;
+}  
+.green1{
+  width: 800px;
+}
+.green1 > div {
+  height: 200px;
+  border: 2px solid red;
+  }
+.green2{
+  width: 400px;
+}
+.green2>div{
+  height: 133.3333333px;
+  border: 2px solid red;
+}
+.orange{ 
+  font-size: 0;
+  float: left;
+  }
+  .orange1, .orange2 {
+    float: left;
+    background-color: orange;
+    text-align: left;
+    font-size: 20px;
+    }
+  .orange1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+  }
+  .orange2{
+    width: 800px;
+  }
+  .orange3 {
+    height: 200px;
+    border: 2px solid red;
+  }
+  .orange5,.orange6 {
+    float: left;
+  }
+  .orange5{
+  width: 400px;
+  height: 200px;
+  border: 2px solid red;
+  } 
+  .orange6{
+  width: 400px;
+  }
+  .orange6 > div{
+  height: 100px;
+  border: 2px solid red;
+  }
+  
+
+
+
+
+
+
+

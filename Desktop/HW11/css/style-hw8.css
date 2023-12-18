@@ -1,0 +1,195 @@
+@import url(reset.css);
+
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper{
+display: flex;
+flex-flow: column;
+height: 100%;
+}
+.header{
+  background-color: #81A36B; 
+  padding: 20px 0;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: block;
+}
+.header-menu {
+  display: flex;
+  gap: 30px;
+  padding:25px 0; 
+  }
+.header-menu a{
+  text-decoration: none;
+  color: #161616;
+  }
+    
+.main{
+  flex-grow: 1;
+  background-color: #D8D8D6;
+}
+h1{
+  font-weight: 400;
+  font-size: 62px;
+  font-family: 'Architects Daughter',sans-serif;
+  padding-top: 174px;
+  padding-bottom: 41px;
+  }
+h2{
+  font-weight: 400;
+  font-size: 32px;
+  font-family: 'Architects Daughter',sans-serif;
+}
+h3{
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+article{
+  font-weight: 400;
+  font-size: 18px;
+}
+.s1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.flower1{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.correction1{
+  height: 670px;
+  flex: 1 1 45%;
+}
+.correction2{
+  flex: 1 1 45%;
+}
+.btn1{
+background-color: #81A36B;
+border-radius: 6px;
+border: 1px solid #81A36B ;
+padding: 11px 34px;
+margin-right: 20px;
+}
+.btn2{
+   background-color: #D8D8D6;
+  border-radius: 6px;
+  border: 1px solid #81A36B ;
+  padding: 11px 34px;
+}
+.s2{
+  max-width:540px;
+  text-align: center;
+}
+.about{
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.art2{
+  padding-bottom: 120px;
+}
+.s3{
+  width: 1440px;
+  height: 282px;
+  background-color: #81A36B; 
+  margin: 0 auto;
+  }
+.mid{
+  display: flex;
+  justify-content: space-between;
+  padding: 78px 0;
+  }
+
+.s4{
+  display: flex;
+  gap: 30px;
+  padding:120px 0;
+  }
+.how{
+  padding: 180px 0 50px 98px;
+}
+.art3{
+  width:540px;
+  text-align:justify;
+  }
+.s5{
+ width: 1110px;
+ padding-bottom: 120px;
+  }
+.our{
+  text-align: center;
+  padding-bottom:50px;
+}
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card{
+  width:350px;
+  background-color: #81A36B;
+  border-radius: 6px;
+  padding: 15px 15px 40px;
+  }
+.card a{
+  text-decoration: none;
+  color: #161616;
+  }
+h4{
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  padding: 23px 84px 40px;
+}
+footer{
+  background-color: #81A36B; 
+  text-align: center;
+  padding: 50px 0;
+}
+.amelia{
+  font-weight: 400;
+  font-size: 36px;
+  font-family: 'Architects Daughter',sans-serif;
+  }
+.footer-text{
+  font-size: 18px; 
+  padding-bottom: 15px;
+}
+.sn{
+  display: flex;
+  gap: 20.7px;
+  justify-content: center;
+  }
+  .sn a{
+    display: block;
+    line-height: 14px;
+  }
+  .c{
+  font-size: 16px; 
+  font-weight: 500;
+  line-height: 18.75px;
+  padding-top: 15.22px;
+  }

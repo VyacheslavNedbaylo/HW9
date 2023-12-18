@@ -1,0 +1,83 @@
+@import url(reset.css);
+
+header{
+  background-color: #81A36B; 
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  }
+
+h1{
+  font-weight: 400;
+  font-size: 62px;
+  font-family: 'Architects Daughter',sans-serif;
+  }
+a:hover {background: #f2eded;} 
+a{
+  text-decoration: none;
+  }
+.menu {
+  position: fixed;
+  top: 50%;
+  margin-top: -130px;
+  height: 260px;
+  
+  left: 5px;
+  background-color: aquamarine;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+  width: 115px; 
+  }
+li{
+  border: 1px solid grey;
+}
+.photo-galery{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  }
+
+.car{
+  flex: 1 1 45%;
+  position: relative;
+  border: 2px solid black;  
+  
+}
+.car img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.hov{
+  height: 100px;
+  width:593px; 
+  padding: 10px;
+  opacity: 0;
+  overflow: auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -50px;
+  color: aliceblue;
+  background:rgba(238, 56, 56, 0.5) 
+  
+}
+.car:hover .hov{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+

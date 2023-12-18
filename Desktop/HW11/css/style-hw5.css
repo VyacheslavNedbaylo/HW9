@@ -1,0 +1,91 @@
+@import url(reset.css);
+.wrapper{
+  width: 1200px;
+  margin: o auto;
+      }
+  .aqua{
+    font-size: 0;
+  }
+  .aqua>div{
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  display: inline-block;
+  border-bottom: 2px solid red;
+  border-right: 2px solid red;
+  text-align: left;
+  font-size: 15px;
+    }
+.aqua>div+div+div{
+    border-right: none;
+  }
+.second{
+  font-size: 0;
+}
+.green1, .green2 {
+  background-color:  greenyellow;
+  text-align: left;
+  font-size: 15px;
+  display: inline-block;
+}  
+.green1{
+  width: 800px;
+}
+.green1-1{
+  height: 200px;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+}
+.green2{
+  vertical-align: top;
+  width: 400px;
+}
+.green2-1{
+  height: 133.3333333px;
+  border-bottom: 2px solid red;
+}
+.orange, .orange4 {
+  font-size: 0;
+}
+.orange1, .orange2, .orange5, .orange6{
+  background-color: orange;
+  text-align: left;
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.orange1{
+  width: 400px;
+  height: 400px;
+  border-right: 2px solid red;
+}
+
+.orange3 {
+  height: 200px;
+  width: 800px;
+  border-bottom: 2px solid red;
+}
+.orange5{
+  width: 400px;
+  height: 200px;
+  border-right: 2px solid red;
+  display: inline-block;
+}
+.orange6{
+  width: 400px;
+  display: block;
+  display: inline-block;
+}
+.orange6 > div{
+height: 100px;
+border-bottom: 2px solid red;
+}
+.orange6>div+div{
+  border-bottom: none;
+}
+
+
+
+
+
+

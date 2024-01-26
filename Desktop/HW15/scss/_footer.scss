@@ -1,0 +1,98 @@
+//FOOTER
+@mixin inner{
+	display: flex;
+	gap:10px;
+	align-items: center;
+	}
+footer{
+	max-height: 100%; 
+	display: flex;
+	flex-flow: column;
+	background-color:$bg-color ;  
+	padding:  0 60px;
+	}
+footer>div{
+	@include vieport-md-reverce  {
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		text-align: center;
+		}
+}
+.footer__separator {
+	height: 2px;
+	background:$separator-color;
+	margin-top: 30px;
+	  }
+.footer__adress {
+	@include inner;
+	margin-top: 30px;
+		}
+.fp{
+	color:$main-color;
+	font-size: 16px;
+
+	@include vieport-md-reverce {
+		flex: 1 1 100%;
+		order: 1;
+		}
+	}
+.footer__adress-link{
+	font-weight: 700;
+	@include base-link;
+	text-decoration: none;
+	text-transform: uppercase;
+	@include vieport-md-reverce {
+		flex: 1 1 100%;
+		order: 2;}
+}
+.footer__law {
+	display: flex;
+	justify-content: flex-end;
+	font-weight: 400;
+	color:$text-color;
+	line-height: 19.5px;
+	margin-top: -22px;
+	
+	
+	@include vieport-md-reverce {
+		flex: 1 1 100%;
+		order: 6;
+		justify-content: center;
+		margin: 0px 0px 30px 0px;
+	}
+}
+.footer__contact {
+	@include inner;
+	margin: 21px 0 30px;
+	
+	}
+.footer__contact svg {
+	height: 38px;
+	width: 38px;
+		}
+.footer__social{
+	@include vieport-md-reverce {
+		flex: 1 1 100%;
+		order: 3;
+		justify-content: center;
+	}
+}
+.footer__phone{
+	text-decoration: none;
+	color: $alt-color;
+	font-weight: 700;
+	line-height: 19.5px;
+	@include vieport-md-reverce {
+		flex: 1 1 100%;
+		order: 4;}
+}
+.footer__email{
+text-decoration: none;
+font-weight: 700;
+@include base-link;
+@include vieport-md-reverce {
+	flex: 1 1 100%;
+	order: 5}
+}
+

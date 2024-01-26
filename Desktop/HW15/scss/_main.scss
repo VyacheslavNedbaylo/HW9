@@ -1,0 +1,289 @@
+.main{
+background-color: $bg-color;
+}
+
+.border__wrapper{
+    display: block;
+    height: 10px;
+    background-color: #CACADB;
+	margin: 0 20px; 
+    border-radius: 0px 0px 12px 12px;
+    position: relative;}
+
+.border__wrapper::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 10px;
+    background-color: #E7E7F2;
+    margin: 0 30px;
+    border-radius: 0px 0px 12px 12px;
+}
+ .partners {
+    @include vieport-xxl{
+    margin: 0 100px
+    }
+    &__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+     margin-bottom: 30px;
+    color: $main-color;
+   }
+
+   &__list {
+    height: 720px;
+    overflow: auto;
+    @include vieport-sm{
+        display: flex;
+        flex-wrap: wrap;
+        flex:1 1 40%;}
+    @include vieport-md{
+        overflow: visible;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 auto
+    } 
+}
+&__list-item {
+    width: 100%;
+    height: 120px;
+    @include  vieport-md{
+        flex: 1 0 30%
+    }
+    @include  vieport-lg{
+        flex: 1 1 25%
+    }
+ }
+ }
+.hilel {
+    background: #1c4280 url(../images/hillel.png) no-repeat center/217px 48px;
+    @include  vieport-xxl{
+        border-radius: 12px 0px 0px 0px;
+    }
+}
+
+.wannabiz {
+    background: #143646 url(../images/wannabiz.png) no-repeat center/200px 32px
+}
+
+.targerine {
+    background: #f48b30 url(../images/tapgerine.png) no-repeat center/180px 44px
+}
+
+.dlook {
+    background: #9e4dc3 url(../images/3dlook.png) no-repeat center/180px 42px;
+    @include  vieport-xxl{
+        border-radius: 0px 12px 0px 0px;
+    }
+}
+
+.orangear {
+    background: #fd9339 url(../images/orangear.png) no-repeat center/174px 44px
+}
+
+.adtelligent {
+    background: #e2e2e4 url(../images/adtelligent.png) no-repeat center/132px 48px
+}
+
+.clikky {
+    background: #c71c36 url(../images/clickky.png) no-repeat center/138px 61px;
+    @include  vieport-sm{
+        display: none;
+    }
+}
+
+.leasing {
+    background: #dcf3f9 url(../images/eco-leasing.png) no-repeat center/146px 76px;
+    @include  vieport-sm{
+        display: none;
+    }
+}
+
+.ingratec {
+    background: #eaeaea url(../images/ingratek.png) no-repeat center/182px 60px;
+    @include  vieport-sm{
+        display: none;
+    }
+    @include  vieport-xxl{
+        border-radius: 0px 0px 0px 12px;
+    }
+}
+
+.citipar {
+    background: #282240 url(../images/city-par.png) no-repeat center/181px 31px;
+    @include  vieport-sm{
+        display: none;
+    }
+}
+
+.artprint {
+    background: #1d4568 url(../images/artprint.png) no-repeat center/189px 46px;
+    @include  vieport-sm{
+        display: none;
+    }
+}
+
+.ultimate {
+    background: #000 url(../images/ultimatecard.png) no-repeat center/152px 95px;
+    @include  vieport-sm{
+        display: none;
+    }
+    @include  vieport-xxl{
+        border-radius: 0px 0px 12px 0px;
+    }
+}
+///////////////////publications////////
+.wrap {
+    padding: 30px 30px 0px 30px;
+    background: $bg-color;
+    @include  vieport-xxl{
+        margin-top: 60px;
+    }
+}
+
+.publications {
+    padding: 30px 0px 0px 0px;
+ 
+&__link {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #24a3ff;
+    text-decoration: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+    text-transform: uppercase;
+    position: relative;
+    padding-right: 8px;
+}
+
+&__link:hover {
+    color: #f0145a
+}
+
+&__link:hover::before {
+    border-color: #f0145a
+}
+
+&__link::before {
+    content: "";
+    position: absolute;
+    top: 5.5px;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid #24a3ff;
+    border-right: 2px solid #24a3ff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    letter-spacing: 1px;
+    -webkit-transition: .2s;
+    transition: .2s
+ }
+
+&__title {
+    margin-bottom: 30px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 30px;
+    @include main-gradient-text;
+    
+    @include vieport-md{
+        font-size: 38px
+    }
+  }
+
+&__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+     gap: 30px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    @include vieport-md{
+        flex-direction: row;
+    }
+}
+
+&__card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    @include vieport-md{
+        flex: 1 1 45%
+    }
+    @include vieport-lg {
+        flex: 1 1 30%
+    }
+}
+
+&__image img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+&__content {
+    margin: 30px
+}
+
+&__subtitle {
+    margin-bottom: 15px;
+    color: #24a3ff;
+    text-decoration: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+    display: block;
+    font-weight: 700;
+    font-size:16px;
+ }
+
+&__subtitle:hover {
+    color: #f0145a
+}
+
+&__subtitle:hover::before {
+    border-color: #f0145a
+}
+
+&__data {
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: $text-color;
+    }
+
+&__desc {
+    border-top: 4px solid $separator-color;
+    padding-top: 15px;
+    font-size: 14px
+}
+}
+
+
+//////additional page servises
+.partners__title-services{
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: $main-color;
+}

@@ -1,0 +1,252 @@
+.services{
+    padding: 0px 60px;
+	border-radius: 0px 0px 12px 12px;
+
+    @include vieport-sm {
+		padding: 0px 30px;
+			}
+	&__container-h4{
+	    text-transform: uppercase;
+		font-weight: 700;
+		font-size: 14px;
+		line-height:17.07px;
+		color: $regular-color;
+		position: relative;
+		text-decoration: none;
+		padding-bottom: 10px;
+		padding-right: 8px;
+		transition: .2s;
+	&:hover {
+		color: $accent-color;
+	    }
+	}
+	&__container-h4:hover::before {
+		border-color: #f0145a
+	}
+
+	&__container-h4::before {
+		content: "";
+		position: absolute;
+		top: 5px;
+		left: 75px;
+		width: 7px;
+		height: 7px;
+		border-bottom: 2px solid $regular-color;
+		border-left: 2px solid $regular-color;
+		transform: rotate(-135deg);
+		letter-spacing: 1px;
+        -webkit-transition: .2s;
+         transition: .2s;
+		
+		}
+
+		
+	&__whot-h2{
+		font-weight: 700;
+		font-size: 38px;
+		line-height:46.32px;
+		color: $gradient-red-text;
+		@include main-gradient-text;
+		padding-bottom: 30px;
+		@include vieport-sm{font-size: 30px}
+	}
+	
+		&__cards{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 30px;
+		padding-bottom: 60px;
+				
+		@include vieport-sm{
+			flex-direction: column;
+			gap: 30px;}
+		@include vieport-md{
+			gap:60px;
+			}
+		@include vieport-md{
+				gap:60px;}
+		@include vieport-lg{
+			gap:60px;}
+		@include vieport-xl{
+			gap:60px;}
+		@include vieport-xxl{
+			gap:60px;}
+	}
+
+	&__card-item{
+		height: 100%;
+		overflow: hidden;
+		
+		@include vieport-sm{
+			flex:1 1 40%;}
+		@include vieport-md{
+			flex:1 1 45%;}
+		@include vieport-lg{
+			flex:1 1 27%;}
+		@include vieport-xl{
+			flex:1 1 27%;}
+		@include vieport-xxl{
+			flex:1 1 27%;}		
+	}
+	&__card-item>a{
+		text-decoration: none;
+	}
+	&__cards-span{
+		display: inline-block;
+		width: 92px;
+		height: 92px;
+		background-color:$basic-white;
+		border-radius: 24px;
+		padding: 14px 14px;
+	}
+
+	&__card-itemsvg{
+		width: 64px;
+		height: 64px;	
+	}
+
+	&__cards-heder{
+		font-weight: 700;
+		font-size: 22px;
+		line-height:26.82px;
+		color: $regular-color;
+		padding-top: 30px;
+		&:hover {
+			color: $accent-color;}
+	}
+
+	&__cards-p{
+		padding-top: 30px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height:26px;
+		color:$basic-white;
+	}
+
+.services__btn {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		font-size: 40px;
+		width: 80px;
+		height: 80px;
+		z-index: 200;
+		cursor: pointer;
+		color: #fff;
+		background: greenyellow;
+		border-radius: 50%;
+		border: .5px solid #504c4c;
+		-webkit-animation: pulsing 6s infinite;
+		animation: pulsing 6s infinite;
+		-webkit-transition: 2s;
+		transition: 2s
+	}
+
+@-webkit-keyframes pulsing {
+    0% {
+        -webkit-transform: scale(0.7, 0.7);
+        transform: scale(0.6, 0.6)
+    }
+
+    50% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1)
+    }
+
+    100% {
+        -webkit-transform: scale(0.7, 0.7);
+        transform: scale(0.7, 0.7)
+    }
+}
+
+@keyframes pulsing {
+    0% {
+        -webkit-transform: scale(0.7, 0.7);
+        transform: scale(0.7, 0.7)
+    }
+
+    50% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1)
+    }
+
+    100% {
+        -webkit-transform: scale(0.7, 0.7);
+        transform: scale(0.7, 0.7)
+    }
+}
+
+.services__btn:hover {
+    background: #f0145a
+}
+
+.form__name {
+    padding: 15px;
+    width: 100%;
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #b3b3ba;
+    background: #e6e6f0
+}
+
+.form__massage {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #b3b3ba;
+    background: #e6e6f0
+}
+.form__desc {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #b3b3ba
+}
+
+.form__tel {
+    padding: 15px;
+    width: 100%;
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #b3b3ba;
+    background: #e6e6f0
+}
+.form__email {
+    padding: 15px;
+    width: 100%;
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #b3b3ba;
+    background: #e6e6f0
+}
+
+.form__button {
+    min-width: 100%;
+    height: 50px;
+    border: 1px solid #006ccf;
+    background: #006ccf;
+    color: #fff;
+    border-radius: 8px
+}
+
+}
+.secondpage{
+	padding-top: 30px;
+	font-weight: 700;
+	font-size: 38px;
+	color: $gradient-red-text;
+	padding-bottom: 60px;
+	@include main-gradient-text;
+	@include vieport-sm{
+		font-size: 30px;
+		padding-bottom: 30px;
+	}
+}
+
